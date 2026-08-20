@@ -1,0 +1,16 @@
+[project]
+name = "mode"
+version = "0.1.0"
+description = "MODE: Mutual Optimality in Direct Effects of Reciprocal Recommendations in Matching Markets. RecSys 2026. Yoji Tomita."
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "cvxpy>=1.8.2",
+    "numpy>=2.4.4",
+    "torch>=2.11.0",
+]
+
+[dependency-groups]
+dev = [
+    "ruff>=0.16.3",
+]
